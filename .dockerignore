@@ -1,0 +1,21 @@
+# Embeddings already stored in Pinecone, so ignore:
+Data/
+store_index.py
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local dependencies (not needed in container)
+venv/
+.env
+
+# Logs & system junk
+logs/
+*.log
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
